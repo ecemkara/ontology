@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:590fbcdb-3496-43ea-9b2d-27b3e8b45f2c#"
+     xml:base="urn:webprotege:ontology:590fbcdb-3496-43ea-9b2d-27b3e8b45f2c"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:590fbcdb-3496-43ea-9b2d-27b3e8b45f2c"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KTV5PO0yxHuKWH2hzJ0BT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7KTV5PO0yxHuKWH2hzJ0BT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9RpJV4GPXJ0ApuJxySRujw"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PDTjjQIq48y4aASMCNI35 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7PDTjjQIq48y4aASMCNI35">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcgQS63aCMptjXUMb2pGyS"/>
+        <dc:creator xml:lang="en">Agatha Christie</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</dc:date>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:title xml:lang="tr">Suç Ortakları</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suç Ortakları by Agatha Christie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7kG6RZhW8rMNWqeSCUMcgR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7kG6RZhW8rMNWqeSCUMcgR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8FVKbVb5DbHiMjotVKyYps"/>
+        <rdfs:label>Cookbook - in 2000&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7oGJ7N6f4PRqA4mhTlp9O9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7oGJ7N6f4PRqA4mhTlp9O9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rhrcc6liMBNKtcicYW3Fna"/>
+        <rdfs:label>Nonfiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R833kGsm1WBBGbwEWqUO7rk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R833kGsm1WBBGbwEWqUO7rk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCEGJLq1DFOUuyOb8jZMbyA"/>
+        <dc:creator xml:lang="en">Thomas Piketty</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</dc:date>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:title xml:lang="tr">Yirmi Birinci Yüzyılda Kapital</dc:title>
+        <rdfs:label>Yirmi Birinci Yüzyılda Kapital by Thomas Piketty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88pf0Ezo1baVWyOt5jbjVi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88pf0Ezo1baVWyOt5jbjVi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rg77XJSXkcSLKzYSgEkKCN"/>
+        <dc:creator xml:lang="en">Ann Radcliffe</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1790</dc:date>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:title xml:lang="tr">Sicilya&apos;da Bir Aşk Hikayesi</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sicilya&apos;da Bir Aşk Hikayesi by Ann Radcliffe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CF0gX5ZT88f2aOKgNU0QC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8CF0gX5ZT88f2aOKgNU0QC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rybw8fUUZMLbRC2w0ucoHY"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action and adventure book - in 1900&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8FVKbVb5DbHiMjotVKyYps -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8FVKbVb5DbHiMjotVKyYps">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7oGJ7N6f4PRqA4mhTlp9O9"/>
+        <rdfs:label>Cookbook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8peI7eqyeifpXHWf3zOcKL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8peI7eqyeifpXHWf3zOcKL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMMlB54bmzpyzd8Fk9vN0x"/>
+        <dc:creator xml:lang="en">Sarah Leah Chase, Julee Rosso, Sheila Lukins</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</dc:date>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:title xml:lang="en">The Silver Palate Good Times Cookbook</dc:title>
+        <rdfs:label>The Silver Palate Good Times Cookbook by Sarah Leah Chase and others</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wNtnWo639TAW5NB0o9JIL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wNtnWo639TAW5NB0o9JIL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7kG6RZhW8rMNWqeSCUMcgR"/>
+        <dc:creator xml:lang="en">Nigella Lawson</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:title xml:lang="en">Cook, Eat, Repeat: Ingredients, Recipes, and Stories</dc:title>
+        <rdfs:label>Cook, Eat, Repeat: Ingredients, Recipes, and Stories by Nigella Lawson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95W6Kgx2Q6YNghFIvMkTl9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R95W6Kgx2Q6YNghFIvMkTl9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7oGJ7N6f4PRqA4mhTlp9O9"/>
+        <rdfs:label>Business/economics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9RpJV4GPXJ0ApuJxySRujw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9RpJV4GPXJ0ApuJxySRujw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rhrcc6liMBNKtcicYW3Fna"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9RsWlWcncMkX6J2HxMlsyJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9RsWlWcncMkX6J2HxMlsyJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R95W6Kgx2Q6YNghFIvMkTl9"/>
+        <rdfs:label>Business/economics - in 1700&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9WkIr5EWVyLNEfY2ifqhdJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9WkIr5EWVyLNEfY2ifqhdJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvFW7fD21B6fCYmeu38caL"/>
+        <dc:creator xml:lang="la">Saint Augustinus</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1741</dc:date>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:title xml:lang="tr">İtiraflar</dc:title>
+        <rdfs:label>İtiraflar by Saint Augustinus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9rDBUvtHWzRtmvDsV5643A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9rDBUvtHWzRtmvDsV5643A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8CF0gX5ZT88f2aOKgNU0QC"/>
+        <dc:creator xml:lang="en">R. A. Montgomery</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</dc:date>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:title xml:lang="en">Space and Beyond</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Space and Beyond by R. A. Montgomery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB00BsWoezmjbdmopGdY45O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB00BsWoezmjbdmopGdY45O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9RpJV4GPXJ0ApuJxySRujw"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Children&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVRECxWX0pAcDoetXoRTbz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBVRECxWX0pAcDoetXoRTbz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rybw8fUUZMLbRC2w0ucoHY"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action and adventure book  - in 2000&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcgQS63aCMptjXUMb2pGyS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBcgQS63aCMptjXUMb2pGyS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7KTV5PO0yxHuKWH2hzJ0BT"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crime Book - in 2000&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBezYo1ajVISed31Kspw24e -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBezYo1ajVISed31Kspw24e">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCb2iDoNNrCbyiCUGyogDKu"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kevin Henkes</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:title xml:lang="en">Kitten&apos;s First Full Moon</dc:title>
+        <rdfs:label>Kitten&apos;s First Full Moon by Kevin Henkes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCEGJLq1DFOUuyOb8jZMbyA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCEGJLq1DFOUuyOb8jZMbyA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R95W6Kgx2Q6YNghFIvMkTl9"/>
+        <rdfs:label>Business/economics - in 2000&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCb2iDoNNrCbyiCUGyogDKu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCb2iDoNNrCbyiCUGyogDKu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB00BsWoezmjbdmopGdY45O"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Children&apos;s books - in 2000&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCbm9lsLDp0fgumXRstOaEl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCbm9lsLDp0fgumXRstOaEl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvFW7fD21B6fCYmeu38caL"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benjamin Franklin</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1793</dc:date>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:title xml:lang="en">Benjamin Franklin</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benjamin Franklin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCci71Af9T355o2yxUBdTHc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCci71Af9T355o2yxUBdTHc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDqQlutaPNaN3P5YMz3eBbC"/>
+        <rdfs:label>Autobiography - in 2000&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfZ8bTahuGSGihLx7wganC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfZ8bTahuGSGihLx7wganC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBVRECxWX0pAcDoetXoRTbz"/>
+        <dc:creator xml:lang="en">Dan Brown</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</dc:date>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Da Vinci Code</dc:title>
+        <rdfs:label>The Da Vinci Code by Dan Brown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnSLUOVNcrZgrxrqXQTRHg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCnSLUOVNcrZgrxrqXQTRHg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDktvhCAekUMiYHuHUNYSCl"/>
+        <dc:creator xml:lang="en">Karl Marx</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1867</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:title xml:lang="en">Kapital</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kapital by Karl Marx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpqEf7Wj1j4zSjLfN7aOIq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCpqEf7Wj1j4zSjLfN7aOIq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMyqxTV3vgwjn83iHewdUw"/>
+        <dc:creator xml:lang="en">Thomas Hughes</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1857</dc:date>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom Brown&apos;s School Days</dc:title>
+        <rdfs:label>Tom Brown&apos;s School Days by Thomas Hughes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUt5LcfQd88JcCbWPUq8Yn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUt5LcfQd88JcCbWPUq8Yn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCci71Af9T355o2yxUBdTHc"/>
+        <dc:creator xml:lang="en">Morrisser</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</dc:date>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:title xml:lang="en">Autobiography</dc:title>
+        <rdfs:label>Autobiography by Morrisser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDhGcgPRO7L5cKtW1sRTSTM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDhGcgPRO7L5cKtW1sRTSTM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9RsWlWcncMkX6J2HxMlsyJ"/>
+        <dc:creator xml:lang="en">Adam Smith</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1776</dc:date>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:title xml:lang="tr">Ulusların Zenginliği</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulusların Zenginliği by Adam Smith</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDktvhCAekUMiYHuHUNYSCl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDktvhCAekUMiYHuHUNYSCl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R95W6Kgx2Q6YNghFIvMkTl9"/>
+        <rdfs:label>Business/economics - in 1800&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDqQlutaPNaN3P5YMz3eBbC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDqQlutaPNaN3P5YMz3eBbC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7oGJ7N6f4PRqA4mhTlp9O9"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autobiography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvFW7fD21B6fCYmeu38caL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDvFW7fD21B6fCYmeu38caL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDqQlutaPNaN3P5YMz3eBbC"/>
+        <rdfs:label>Autobiography - in 1700&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMMlB54bmzpyzd8Fk9vN0x -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMMlB54bmzpyzd8Fk9vN0x">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8FVKbVb5DbHiMjotVKyYps"/>
+        <rdfs:label>Cookbook - in 1900&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMyqxTV3vgwjn83iHewdUw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMyqxTV3vgwjn83iHewdUw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB00BsWoezmjbdmopGdY45O"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Children&apos;s books - in 1800&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RO1Zbdph4Nt9OlEdXdpkTv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RO1Zbdph4Nt9OlEdXdpkTv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMMlB54bmzpyzd8Fk9vN0x"/>
+        <dc:creator xml:lang="en">Zoe Coulson</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</dc:date>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:title xml:lang="en">The Good Housekeeping Illustrated Cookbook</dc:title>
+        <rdfs:label>The Good Housekeeping Illustrated Cookbook by Zoe Coulson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg77XJSXkcSLKzYSgEkKCN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rg77XJSXkcSLKzYSgEkKCN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7KTV5PO0yxHuKWH2hzJ0BT"/>
+        <rdfs:label>Crime book - in 1700&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rhrcc6liMBNKtcicYW3Fna -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rhrcc6liMBNKtcicYW3Fna">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rybw8fUUZMLbRC2w0ucoHY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rybw8fUUZMLbRC2w0ucoHY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9RpJV4GPXJ0ApuJxySRujw"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action and Adventure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzhTFxvXTl2I52WbTJwYBw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RzhTFxvXTl2I52WbTJwYBw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBVRECxWX0pAcDoetXoRTbz"/>
+        <dc:creator xml:lang="en">Suzanne Collins</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</dc:date>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:title xml:lang="en">The Hunger Games</dc:title>
+        <rdfs:label>The Hunger Games by Suzanne Collins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crime Books</dc:type>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
